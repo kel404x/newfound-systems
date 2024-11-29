@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Image from 'next/image'; // Import the Image component
 import img from '../app/premium_photo-1661963212517-830bbb7d76fc.avif'
 
 export function Hero() {
@@ -32,10 +33,12 @@ export function Hero() {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
+        <Image
           className="h-32 w-full object-cover sm:h-48 md:h-64 lg:w-full lg:h-full" // Adjusted image size
           src={img.src}
           alt="IT Solutions"
+          layout="fill" // Use layout fill for responsive images
+          objectFit="cover" // Maintain aspect ratio
         />
       </div>
     </div>

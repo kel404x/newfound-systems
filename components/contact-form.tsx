@@ -1,9 +1,9 @@
 "use client"
 
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { useState } from "react"
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -22,7 +22,7 @@ export function ContactForm() {
     return (
       <div className="text-center">
         <h3 className="text-2xl font-bold text-gray-900">Thank you for your message!</h3>
-        <p className="mt-4 text-lg text-gray-500">We'll get back to you as soon as possible.</p>
+        <p className="mt-4 text-lg text-gray-500">We&apos;ll get back to you as soon as possible.</p>
       </div>
     )
   }
@@ -85,4 +85,3 @@ export function ContactForm() {
     </form>
   )
 }
-

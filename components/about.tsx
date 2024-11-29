@@ -20,7 +20,7 @@ export function About() {
           </p>
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4 border-b-2 border-[#FF6B35] inline-block">Our Commitment</h3>
           <p className="text-lg">
-            We are committed to proactive, unparalleled support and services. For us, success is measured by our customers' growth, and we take pride in being a trusted partner on that journey.
+            We are committed to proactive, unparalleled support and services. For us, success is measured by our customers&apos; growth, and we take pride in being a trusted partner on that journey.
           </p>
         </div>
       </div>
